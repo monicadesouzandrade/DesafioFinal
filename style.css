@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+header {
+  height: 15vh;
+  background-color: black;
+  border: solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.boxBorder {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+header p {
+  font-family: Roboto serif;
+  height: 30%;
+  width: 80%;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-left: 0.5em;
+}
+
+.logoFantastika {
+  height: 8vh;
+}
+
+.iconsnav {
+  height: 70%;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logosHeader {
+  height: 100%;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+}
+main section {
+  height: 100vh;
+  width: 100vw;
+  border: solid green;
+  background-image: url("./assets/div_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+main h1 {
+  color: white;
+  font-family: Roboto serif;
+  font-weight: bold;
+  font-size: 3em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logopata {
+  size: 60px;
+}
