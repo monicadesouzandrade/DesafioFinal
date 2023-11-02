@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap"); 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz@8..144&display=swap');
 
 * {
   margin: 0;
@@ -25,7 +26,7 @@ header {
 }
 
 header p {
-  font-family: 'Roboto' serif;
+  font-family: 'Roboto Serif';
   height: 30%;
   width: 80%;
   color: white;
@@ -55,18 +56,19 @@ header p {
 }
 
 main {
-  height: 100vh;
+  height: 100%;
   width: 100%;
+  border: solid salmon;
   display: flex;
   justify-content: space-evenly;
+  flex-direction: column;
 }
 
 /*Primeira seção: cachorro com chapéu*/
 
-.PrimeiraSeção {
+.primeiraSeçao {
   height: 130vh;
-  width: 100vw;
-  border: solid green;
+  width: 100%;
   background-image: url("./assets/div_1.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -76,20 +78,18 @@ main {
   
 }
 
-.PrimeiraSeção h1 {
+.primeiraSeçao h1 {
   height: 15%;
   color: white;
   font-family: 'Roboto' serif;
   font-weight: bold;
   font-size: 4em;
-  border: solid blue;  
   margin-bottom: 8rem;
 }
 
 .CachorroChapeu{
-  height: 130vh;
+  height: 100%;
   width: 100%;
-  border: solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,4 +100,46 @@ main {
 .logopata {
   height:15vh;
   margin-bottom: 20rem;
+}
+
+/*Segunda seção: Cachorro leão*/
+
+.segundaSeçao{
+  height: 130vh;
+  background-image:url("./assets/div_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+
+}
+.cachorroLeao{
+  width: 30%;
+  margin-left: 4rem;  
+}
+
+.cachorroLeao h3{
+  font-family: 'Roboto', sans-serif;
+  font-size: 3.5rem;
+  color: #3a342f;
+  font-weight: bold;
+  margin-bottom: 1.5rem;;
+}
+
+.cachorroLeao p{
+  font-size: 1.5rem;
+  color: #3a342f;
+  font-family: 'Roboto', serif;
+  margin-bottom: 1.5rem;
+}
+
+.cachorroLeao button {
+  width: 30%;
+  height: 8vh;
+  font-size: 1.5rem;
+  border-radius: 40px;
+  background-color: #3a342f;
+  color: #f4f2f3;
+  font-weight: bold;
 }
