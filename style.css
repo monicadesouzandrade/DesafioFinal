@@ -219,7 +219,7 @@ main {
 /*Footer da página*/
 
 .footerSeçao{
-  height: 25vh;
+  height: 40vh;
   background-color:#EB4A7B;
   color: white;
   display: flex;
