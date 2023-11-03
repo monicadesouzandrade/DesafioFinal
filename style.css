@@ -124,7 +124,7 @@ main {
   font-size: 3.5rem;
   color: #3a342f;
   font-weight: bold;
-  margin-bottom: 1.5rem;;
+  margin-bottom: 1.5rem;
 }
 
 .cachorroLeao p{
@@ -142,4 +142,75 @@ main {
   background-color: #3a342f;
   color: #f4f2f3;
   font-weight: bold;
+  border: none;
+}
+
+/*Terceira Seção: Mordomia saudável*/
+
+.terceiraSeçao{
+  height: 150vh;
+  background-image:url("./assets/div_3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+}
+
+.terceiraDiv{
+  width: 18%;
+  margin-right:25rem; 
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.terceiraDiv h3{
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+
+}
+.terceiraDiv p{
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Roboto';
+  margin-bottom: 1.5rem;
+}
+
+.terceiraDiv button{
+  width: 50%;
+  height: 8vh;
+  font-size: 1.5rem;
+  border-radius: 40px;
+  color: black;
+  background-color: white;
+  font-weight: bold;
+  border: none;
+}
+
+/*Seção Patrocínio Havaianas e Americanas*/
+
+.seçaoPatrocinio{
+  height: 13vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seçaoPatrocinio p{
+  color: #FD6A9A; 
+  font-family: 'Roboto Serif';
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.seçaoPatrocinio div{
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
 }
