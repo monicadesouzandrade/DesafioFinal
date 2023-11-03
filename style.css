@@ -79,11 +79,13 @@ main {
 
 .primeiraSeçao h1 {
   height: 15%;
+  width: 35%;
   color: white;
   font-family: 'Roboto' serif;
   font-weight: bold;
   font-size: 4em;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
+  text-align: center;
 }
 
 .CachorroChapeu{
@@ -97,7 +99,7 @@ main {
 }
 
 .logopata {
-  height:15vh;
+  height:20vh;
   margin-bottom: 20rem;
 }
 
@@ -134,7 +136,7 @@ main {
 }
 
 .cachorroLeao button {
-  width: 30%;
+  width: 40%;
   height: 8vh;
   font-size: 1.5rem;
   border-radius: 40px;
@@ -182,7 +184,7 @@ main {
 }
 
 .terceiraDiv button{
-  width: 50%;
+  width: 80%;
   height: 8vh;
   font-size: 1.5rem;
   border-radius: 40px;
