@@ -58,7 +58,6 @@ header p {
 main {
   height: 100%;
   width: 100%;
-  border: solid salmon;
   display: flex;
   justify-content: space-evenly;
   flex-direction: column;
@@ -213,4 +212,36 @@ main {
   width: 60%;
   display: flex;
   justify-content: space-evenly;
+}
+
+/*Footer da página*/
+
+.footerSeçao{
+  height: 25vh;
+  background-color:#EB4A7B;
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.footerSeçao div{
+  height:70%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 3rem;
+  margin-left: 4rem;
+}
+
+.footerSeçao h3{
+ font-weight: bold;
+ font-size: 1.5rem;
+ font-family: 'Roboto Serif';
+ margin-bottom: 1.5rem;
+}
+
+.footerSeçao ul li{
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
 }
